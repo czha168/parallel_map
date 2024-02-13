@@ -6,9 +6,9 @@ import os
 import struct
 import traceback
 
-from multiprocessing import Pipe
-from multiprocessing import Process
-from multiprocessing import cpu_count
+from multiprocess import Pipe
+from multiprocess import Process
+from multiprocess import cpu_count
 
 
 def le32enc(n):
